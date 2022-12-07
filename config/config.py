@@ -21,10 +21,10 @@ API_ID = int(getenv("API_ID", 10763476))
 API_HASH = getenv("API_HASH", "e7d6d5493a896264a09d04fda7a30f9d")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = "5866400611:AAEdXlz7eFdj-CiLsmhR9mcyJwyb9giefIw"
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://musicbot:<password>@cluster0.61lydz4.mongodb.net/?retryWrites=true&w=majority"
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", True)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "AQCCskHn_kMom_Q-PcK3rlUzZNTa3Q4dUQNdB4h_BUTAhSn4nqSmJCvQsJ6NTo7yiePniBTiOiHPdERiSR57CG_we6PJxPpUH-GCXo6-RFM0GmENHLr0LDGmcoMeF3EHQmps9Biz1X4ae0mfY50ZZOtM-HftZ5HQ8TVtttqDCmdYQh06dSsAXJgDnxJb87k5oUlTfrBnnJq43b1ZIuC9S_Y_PgMeYnAn620gVc16PDobk-Ut1FopG96V4ENodyOG1cEco0WGAzBeXFHyj3AuJ_I8fsUkDWd2PTLfZ3myAhk31pxmXPgz460TQ8arxIJ0oS4GlNFaEQT33EHROPTnpsOrAAAAAU95TAcA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
